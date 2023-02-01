@@ -53,6 +53,7 @@ export const App = () => {
       fetchImagesByName();
     }
   }, [image, page]);
+  console.log(total);
   return (
     <div className="App">
       <Searchbar onSubmit={handleFormSubmit} />
